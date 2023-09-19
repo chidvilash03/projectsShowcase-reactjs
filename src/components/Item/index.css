@@ -1,0 +1,21 @@
+.item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 200px;
+  width: 200px;
+  margin: 8px;
+}
+.item-image {
+  height: 150px;
+  width: 180px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+}

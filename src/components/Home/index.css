@@ -1,0 +1,33 @@
+.nav-container {
+  background-color: #cbd5e1;
+  padding: 30px;
+  height: 15vh;
+  width: 100vw;
+}
+.nav-logo {
+  width: 300px;
+  height: 75px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 80vh;
+  width: 100vw;
+  padding: 25px;
+}
+.select-bar {
+  height: 45px;
+  align-self: flex-start;
+  width: 300px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+}
