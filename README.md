@@ -1,5 +1,3 @@
-The goal of this coding exam is to quickly get you off the ground with **setState Callback Function**.
-
 ### Refer to the video and image below:
 
 <div style="text-align: center;">
@@ -44,11 +42,11 @@ The goal of this coding exam is to quickly get you off the ground with **setStat
 
 <details>
 
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 
 <br/>
 
-The app must have the following functionalities
+The app contains following functionalities
 
 - When the app is opened initially,
 
@@ -107,22 +105,6 @@ Returns a response containing the list of all projects
 
 </details>
 
-### Important Note
-
-<details>
-
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- Each category option in the HTML `select` element should have the value attribute as the value of key `id` and text content as the value of the key `displayText` from the `categoriesList` provided
-- Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as **loader** to it
-- The project image in each project item should have the alt as the value of the key `name` from each project object in the projects API response
-
-</details>
-
 ### Resources
 
 <details>
@@ -158,7 +140,4 @@ Returns a response containing the list of all projects
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
+
